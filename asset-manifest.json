@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-messageall/static/css/main.e5419d69.chunk.css",
+    "main.js": "/react-messageall/static/js/main.cc4d19ed.chunk.js",
+    "main.js.map": "/react-messageall/static/js/main.cc4d19ed.chunk.js.map",
+    "runtime-main.js": "/react-messageall/static/js/runtime-main.11f0ac5d.js",
+    "runtime-main.js.map": "/react-messageall/static/js/runtime-main.11f0ac5d.js.map",
+    "static/js/2.52ea343f.chunk.js": "/react-messageall/static/js/2.52ea343f.chunk.js",
+    "static/js/2.52ea343f.chunk.js.map": "/react-messageall/static/js/2.52ea343f.chunk.js.map",
+    "index.html": "/react-messageall/index.html",
+    "precache-manifest.151dd02f5903964a15463640215510d2.js": "/react-messageall/precache-manifest.151dd02f5903964a15463640215510d2.js",
+    "service-worker.js": "/react-messageall/service-worker.js",
+    "static/css/main.e5419d69.chunk.css.map": "/react-messageall/static/css/main.e5419d69.chunk.css.map",
+    "static/js/2.52ea343f.chunk.js.LICENSE": "/react-messageall/static/js/2.52ea343f.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.11f0ac5d.js",
+    "static/js/2.52ea343f.chunk.js",
+    "static/css/main.e5419d69.chunk.css",
+    "static/js/main.cc4d19ed.chunk.js"
+  ]
+}
