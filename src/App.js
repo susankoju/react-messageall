@@ -34,7 +34,7 @@ class App extends React.Component {
         <Switch>
           <Route path="/signup" component={Signup} />
           <Route path="/signin" component={Signin} />
-          <Route path="/react-messageall/message" component={Message} />
+          <Route path="/message" component={Message} />
           <Route path="/user" component={User} />
           <Route path="/logout" component={Logout} />
           <Route path="/home" component={Home} />
