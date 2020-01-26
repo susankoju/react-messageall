@@ -111,7 +111,7 @@ export default class Message extends React.Component {
                     data: [...this.state.data, { id: 0, time: "", text: JSON.stringify(res.message), senderName: "Message Failed to Send" }],
                     note: localStorage.getItem('token') ? undefined : (
                         <div style={{ margin: "1em auto", maxWidth: "7.5em" }}>
-                            <Link to="/react-messageall/signin">
+                            <Link to="/signin">
                                 <div className="btn">
                                     Signin
                                 </div>

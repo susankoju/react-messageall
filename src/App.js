@@ -32,13 +32,13 @@ class App extends React.Component {
       <Router>
 
         <Switch>
-          <Route path="/react-messageall/signup" component={Signup} />
-          <Route path="/react-messageall/signin" component={Signin} />
+          <Route path="/signup" component={Signup} />
+          <Route path="/signin" component={Signin} />
           <Route path="/react-messageall/message" component={Message} />
-          <Route path="/react-messageall/user" component={User} />
-          <Route exact path="/react-messageall/logout" component={Logout} />
-          <Route exact path="/react-messageall/home" component={Home} />
-          <Route exact path="/react-messageall/" component={Home} />
+          <Route path="/user" component={User} />
+          <Route exact path="/logout" component={Logout} />
+          <Route exact path="/home" component={Home} />
+          <Route exact path="/" component={Home} />
           <Route component={NotFound} />
         </Switch>
       </Router>

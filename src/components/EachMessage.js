@@ -61,7 +61,7 @@ export default class EachMessage extends React.Component {
                             </div>
 
                             <div className="profile col-md-2">
-                                <a href={"/react-messageall/user/" + this.state.message.senderId} >
+                                <a href={"/user/" + this.state.message.senderId} >
                                     <img src="./images/depositphotos_59095529-stock-illustration-profile-icon-male-avatar.jpg" alt="profile" />
                                 </a>
                             </div>
