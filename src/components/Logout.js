@@ -5,7 +5,7 @@ export default (props) =>{
     return (
         <React.Fragment>
         {    
-            props.history.push('/signin')
+                props.history.push('/react-messageall/signin')
         }
         </React.Fragment>
     )

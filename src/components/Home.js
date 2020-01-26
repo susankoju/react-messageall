@@ -17,7 +17,7 @@ export default class Home extends React.Component {
                         <p>
                             MessageAll is a great substitute for regular SMS text messaging
                     </p>
-                    <Link to="/message">
+                    <Link to="/react-messageall/message">
                         <div className="btn">
                             Start Now
                     </div>
@@ -25,14 +25,14 @@ export default class Home extends React.Component {
 
                     {
                         localStorage.getItem('token') ? (
-                            <Link to="/logout">
+                            <Link to="/react-messageall/logout">
                                 <div className="btn secondary">
                                     Logout
                                 </div>                                
                             </Link>
                         ) : (
 
-                            <Link to="/signin">
+                                <Link to="/react-messageall/signin">
                                 <div className="btn secondary">
                                     Join Us
                                 </div>
