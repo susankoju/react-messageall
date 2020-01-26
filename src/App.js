@@ -36,9 +36,9 @@ class App extends React.Component {
           <Route path="/signin" component={Signin} />
           <Route path="/react-messageall/message" component={Message} />
           <Route path="/user" component={User} />
-          <Route exact path="/logout" component={Logout} />
-          <Route exact path="/home" component={Home} />
-          <Route exact path="/" component={Home} />
+          <Route path="/logout" component={Logout} />
+          <Route path="/home" component={Home} />
+          <Route path="/" component={Home} />
           <Route component={NotFound} />
         </Switch>
       </Router>
