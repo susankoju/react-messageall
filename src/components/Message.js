@@ -60,7 +60,7 @@ export default class Message extends React.Component {
                             </div>
 {
 
-                                console.log(this.state.data)
+                                // console.log(this.state.data)
 }
                             {
                                 Array.isArray(this.state.data) ? (
