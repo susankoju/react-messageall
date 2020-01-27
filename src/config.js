@@ -1,4 +1,4 @@
-let env_mode =process.env.ENV_MODE ||'production';
+let env_mode =process.env.ENV_MODE ||'dev';
 let config={};
 if(env_mode ==='dev'){
     config = {
