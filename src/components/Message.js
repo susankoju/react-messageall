@@ -83,7 +83,7 @@ export default class Message extends React.Component {
                                 <input type="text" name="message" placeholder="Type message..." />
                                 {/* <input type="file" name="image" /> */}
                                 <button type="submit">
-                                    <img src="images/paper-planes-3128885_960_720.png" alt="Send" />
+                                    <img src="./images/paper-planes-3128885_960_720.png" alt="Send" />
                                 </button>
                             </form>
                         </div>
