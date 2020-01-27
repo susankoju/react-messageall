@@ -29,7 +29,7 @@ class App extends React.Component {
   render() {
 
     return (
-      <Router>
+      <Router basename={require('./config').basename}>
 
         <Switch>
           <Route path="/signup" component={Signup} />
