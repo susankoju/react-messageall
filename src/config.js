@@ -1,4 +1,4 @@
-let env_mode =process.env.ENV_MODE ||'dev';
+let env_mode =process.env.ENV_MODE ||'production';
 let config={};
 if(env_mode ==='dev'){
     config = {
@@ -11,12 +11,12 @@ if(env_mode ==='dev'){
 }
     else{
     config = {
-        basename: '/react-messageall',
+        basename: 'react-messageall',
         dbname: '',
         host: '',
         port: '',
 
     };
-    }
+}
 
 module.exports=config;
