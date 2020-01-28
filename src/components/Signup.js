@@ -51,6 +51,18 @@ export default class Signup extends React.Component {
                         </div>
                         <div className="form-row">
                             <div className="form-group">
+                                <label htmlFor="address">Address</label>
+                                <input required type="text" placeholder="Enter Address" className="form-control" id="address" name="address"></input>
+                            </div>
+                        </div>
+                        <div className="form-row">
+                            <div className="form-group">
+                                <label htmlFor="contact">Contact</label>
+                                <input required type="text" placeholder="Enter contact" className="form-control" id="contact" name="contact"></input>
+                            </div>
+                        </div>
+                        <div className="form-row">
+                            <div className="form-group">
                                 <input type="submit" value="Sign Up" className="btn btn-primary btn-block"></input>
                             </div>
                             <p>
