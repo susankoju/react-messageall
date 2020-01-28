@@ -88,6 +88,8 @@ export default class Signup extends React.Component {
             'firstName': e.target.firstName.value,
             'lastName': e.target.lastName.value,
             'email': e.target.email.value,
+            'address': e.target.address.value,
+            'contact': e.target.contact.value,
             'password': e.target.password.value
         }  
         Axios.post(SERVER.URL+'/user/signup', data)
