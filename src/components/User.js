@@ -57,15 +57,15 @@ export default class User extends React.Component {
                         <div className="profile">
                             <div className="info">
                                 <div className="home">
-                                    <Link to="/"><img src="./images/flat-blue-home-icon-4.png" alt="Home" /></Link>
+                                    <Link to="/"><img src=".../images/flat-blue-home-icon-4.png" alt="Home" /></Link>
                                 </div>
                                 <div className="logout">
-                                    <Link to="/logout"><img src="./images/276363.png" alt="Logout" /></Link>
+                                    <Link to="/logout"><img src="../images/276363.png" alt="Logout" /></Link>
                                 </div>
 
                                 <h2 style={{ textShadow: '1px 2px 5px #23a4ee' }}>{this.state.profile.firstName + " " + this.state.profile.lastName}</h2>
                                 <div style={{ width: '50%', float: 'right' }}>
-                                    <img src="./images/depositphotos_59095529-stock-illustration-profile-icon-male-avatar.jpg" alt="Profile" />
+                                    <img src="../images/depositphotos_59095529-stock-illustration-profile-icon-male-avatar.jpg" alt="Profile" />
                                 </div>
                                 <div style={{ width: '50%', display: 'inline-block', textAlign: 'left' }}>
                                     <h3 style={{ textDecoration: 'underline' }}> Information</h3>
