@@ -28,11 +28,11 @@ export default class Signup extends React.Component {
                             Signup for MessageAll
                         </h2>
                         <div className="form-row">
-                            <div className="form-group ">
+                            <div className="form-group half">
                                 <label htmlFor="firstName">First Name</label>
                                 <input required type="text" placeholder="Enter First Name" className="form-control" id="firstName" name="firstName"></input>
                             </div>
-                            <div className="form-group ">
+                            <div className="form-group half">
                                 <label htmlFor="lastName">Last Name</label>
                                 <input required type="text" placeholder="Enter Last Name" className="form-control" id="lastName" name="lastName"></input>
                             </div>
