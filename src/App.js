@@ -30,7 +30,7 @@ class App extends React.Component {
 
     return (
       <Router basename={require('./config').basename}>
-        {console.log(require('./config').basename)}
+        {/* {console.log(require('./config').basename)} */}
 
         <Switch>
           <Route path="/signup" component={Signup} />

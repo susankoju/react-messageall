@@ -11,7 +11,7 @@ export default class User extends React.Component {
     constructor() {
         super();
         this.state = {
-            id: window.location.pathname.slice(6) || localStorage.getItem('userId'),
+            id: window.location.pathname.slice(38) || localStorage.getItem('userId'),
             profile: 1, //initial check of IF
             err: undefined,
             msg: undefined,
@@ -24,6 +24,7 @@ export default class User extends React.Component {
     }
 
     fetchProfile = () => {
+        // console.log(this.state.id);
         Axios.get(SERVER.URL + "/user/" + this.state.id)
             .then(result => {
                 this.setState({
@@ -31,6 +32,7 @@ export default class User extends React.Component {
                 })
             })
             .catch(result => {
+                // console.log(result);
                 this.setState({
                     err: result,
                     profile: null
