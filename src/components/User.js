@@ -12,7 +12,7 @@ export default class User extends React.Component {
         super();
         this.state = {
             id: window.location.pathname.slice(6) || localStorage.getItem('userId'),
-            profile: {},
+            profile: 1, //initial check of IF
             err: undefined,
             msg: undefined,
             pwErr: undefined
@@ -57,7 +57,7 @@ export default class User extends React.Component {
                         <div className="profile">
                             <div className="info">
                                 <div className="home">
-                                    <Link to="/"><img src=".../images/flat-blue-home-icon-4.png" alt="Home" /></Link>
+                                    <Link to="/"><img src="../images/flat-blue-home-icon-4.png" alt="Home" /></Link>
                                 </div>
                                 <div className="logout">
                                     <Link to="/logout"><img src="../images/276363.png" alt="Logout" /></Link>
@@ -78,6 +78,10 @@ export default class User extends React.Component {
                                             <tr>
                                                 <td>Address: </td>
                                                 <td>{this.state.profile.address}</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Contact: </td>
+                                                <td>{this.state.profile.contact}</td>
                                             </tr>
                                             <tr>
                                                 <td>Email: </td>
