@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-messageall/static/css/main.5ff1540f.chunk.css",
-    "main.js": "/react-messageall/static/js/main.8c5cd7ab.chunk.js",
-    "main.js.map": "/react-messageall/static/js/main.8c5cd7ab.chunk.js.map",
+    "main.js": "/react-messageall/static/js/main.f214d22f.chunk.js",
+    "main.js.map": "/react-messageall/static/js/main.f214d22f.chunk.js.map",
     "runtime-main.js": "/react-messageall/static/js/runtime-main.11f0ac5d.js",
     "runtime-main.js.map": "/react-messageall/static/js/runtime-main.11f0ac5d.js.map",
     "static/js/2.fdb2488d.chunk.js": "/react-messageall/static/js/2.fdb2488d.chunk.js",
     "static/js/2.fdb2488d.chunk.js.map": "/react-messageall/static/js/2.fdb2488d.chunk.js.map",
     "index.html": "/react-messageall/index.html",
-    "precache-manifest.bc7c0ad56e4bbebd18b3480ffbea26b1.js": "/react-messageall/precache-manifest.bc7c0ad56e4bbebd18b3480ffbea26b1.js",
+    "precache-manifest.79b903ad82c3a6c7db0b95564878294f.js": "/react-messageall/precache-manifest.79b903ad82c3a6c7db0b95564878294f.js",
     "service-worker.js": "/react-messageall/service-worker.js",
     "static/css/main.5ff1540f.chunk.css.map": "/react-messageall/static/css/main.5ff1540f.chunk.css.map",
     "static/js/2.fdb2488d.chunk.js.LICENSE": "/react-messageall/static/js/2.fdb2488d.chunk.js.LICENSE"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.11f0ac5d.js",
     "static/js/2.fdb2488d.chunk.js",
     "static/css/main.5ff1540f.chunk.css",
-    "static/js/main.8c5cd7ab.chunk.js"
+    "static/js/main.f214d22f.chunk.js"
   ]
 }
