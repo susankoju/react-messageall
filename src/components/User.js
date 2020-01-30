@@ -10,8 +10,9 @@ import './../styles/user.css';
 export default class User extends React.Component {
     constructor() {
         super();
+        // console.log(window.location.pathname.slice(23));
         this.state = {
-            id: window.location.pathname.slice(38) || localStorage.getItem('userId'),
+            id: window.location.pathname.slice(23) || localStorage.getItem('userId'),
             profile: 1, //initial check of IF
             err: undefined,
             msg: undefined,
